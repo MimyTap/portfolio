@@ -60,7 +60,7 @@ table {
 /*général*/
 
 body {
-  background: #fff;
+  background: #F6F9F8;
   color: #696565;
   font: 300 italic 20px/30px 'Open Sans', sans-serif;
   }
@@ -79,10 +79,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   color: #fff;
-  font: 38px 'Kreon', serif;
+  font-size: 52px;
   letter-spacing: 1px;
   text-align: center;
 }
+
 h2 {
   text-align: center;
   font-size: 18px;
@@ -103,6 +104,13 @@ h3 {
   margin-bottom: 50px;
   margin-top: 40px;
 }
+.portfolio h3 {
+	margin-bottom: 40px;
+}
+
+strong {
+	color: #F067DE;
+}
 
 /*header*/
 
@@ -115,10 +123,10 @@ nav {
   z-index: 900;
   opacity: 50%;
 }
-ul {
+/*ul {
   width: 100%;
   margin: 0 auto;
-}
+}*/
 ul li {
   display: inline-block;
   text-transform: uppercase;
@@ -131,13 +139,14 @@ ul li {
 header {
   background-image: url(../images/bg.jpg);
   width: 100%;
+	padding-bottom: 262px;
 }
 header img {
   border-radius: 20px;
 }
 
 .presentation {
-  padding-top: 150px;
+  padding-top: 220px;
 }
 
 .social {
@@ -146,7 +155,7 @@ header img {
   text-align: center;
 }
 hr {
-  border-top: #fff dotted 3px;
+  border-top: #F067DE dotted 3px;
   border-bottom: 0;
   width: 446px;
 }
@@ -154,6 +163,11 @@ hr {
   padding-bottom: 40px;
 }
 
+.presentation p {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 80px;
+}
 /*Links*/
 
 a {
@@ -165,7 +179,8 @@ a {
   color: #e6e5e5;
 }
 a:hover {
-  color: #474b5d;
+  color: #F067DE;;
+	text-decoration: none;
 }
 
 /*SECTIONS*/
@@ -242,6 +257,7 @@ a:hover {
 }
 .grid_3 {
   width: 270px;
+	float: right;
 }
 
 /*Rsquares*/
@@ -274,11 +290,17 @@ a:hover {
   margin-top: 484px;
 }
 
+.carousel-indicators li {
+	background-color: #3e3c3c;
+	border-color: #3e3c3c;
+}
+
+
 /*Expérience*/
 
 .container_12 .grid_12 {
   width: 1170px;
-  margin-top: 252px;
+  margin-top: 48px;
 }
 .block-1 .text1 {
   font-size: 28px;
@@ -485,7 +507,7 @@ a:hover {
 }
 
 .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8 {
-  margin: 50px;
+  margin: 0 auto;
 
 }
 
