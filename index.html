@@ -18,16 +18,24 @@
   <!-- header -->
   <header>
 
-    <nav>
-      <ul>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#exp">Expérience</a></li>
-        <li><img src="images/portrait.jpg" alt="Emilie Saby" /></li>
-        <li><a href="#formation">Formation</a></li>
-        <li><a href="#loisir">Loisir</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <nav class="navbar-fixed-top">
+
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#presentation">
+            <img alt="Emilie Saby" src="images/portrait.jpg">
+          </a>
+        </div>
+
+        <ul class="nav nav-pills nav-justified">
+          <li role="presentation"><a href="#competences">compétences</a></li>
+          <li role="presentation"><a href="#portfolio">portfolio</a></li>
+          <li role="presentation"><a href="#exp">expérience</a></li>
+          <li role="presentation"><a href="#formation">formation</a></li>
+          <li role="presentation"><a href="#loisir">loisirs</a></li>
+          <li role="presentation"><a href="#contact">contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <div class="presentation">
@@ -76,29 +84,31 @@
   <div class="container">
 
     <!-- section compétences -->
-    <section id="competences" class="competences html css js php">
+    <section id="competences" class="competences">
       <h3><strong>C</strong>ompétences <hr></h3>
 
-      <div class="grid_9">
-        <div class="serv_links">
-          <span class="serv serv1">HTML5</span>
-          <span class="serv serv2">CSS3</span>
-          <span class="serv serv3">JavaScript</span>
-          <span class="serv serv4">PHP</span>
-          <span class="serv serv5">Symfony</span>
-          <span class="serv serv6">Bootstrap</span>
-          <span class="serv serv7">jQuery </span>
-          <span class="serv serv8">AngularJS</span>
+      <div class="flexB0">
+        <div class="grid_9">
+          <div class="serv_links">
+            <span class="serv serv1">HTML5</span>
+            <span class="serv serv2">CSS3</span>
+            <span class="serv serv3">JavaScript</span>
+            <span class="serv serv4">PHP</span>
+            <span class="serv serv5">Symfony</span>
+            <span class="serv serv6">Bootstrap</span>
+            <span class="serv serv7">jQuery </span>
+            <span class="serv serv8">AngularJS</span>
+          </div>
         </div>
-      </div>
-      <div class="grid_3">
-        <p>
-          En reconversion professionnelle
-          <br>
-        </p>
+        <div class="grid_3">
+          <p>
+            En reconversion professionnelle
+            <br>
+          </p>
 
-        <br>Voici mes langages et frameworks en cours d'apprentissage !
+          <br>Voici mes langages et frameworks en cours d'apprentissage !
 
+        </div>
       </div>
     </section>
 
@@ -122,7 +132,7 @@
                 <a href="http://mimytap.github.io/integration1" target="_blank"><img alt="screen 1" src="images/screen1.png"></a>
               </div>>
               <div class="item">
-                <a href="http://upto-numerique.fr/promo.html" target="_blank"><img alt="screen 2" src="images/screen2.png"></a>
+                <a href="http://mimytap.github.io/integration3" target="_blank"><img alt="screen 2" src="images/screen2.png"></a>
               </div>
               <div class="item">
                 <a href="http://mimytap.github.io/integration2" target="_blank"><img alt="screen 3" src="images/screen3.png"></a>
@@ -134,14 +144,10 @@
             </a>
             <a class="right carousel-control" href="#carousel" data-slide="next">
               <span class="glyphicon glyphicon-chevron-right"></span>
-
             </a>
           </div>
-
         </div>
-
       </div>
-
     </section>
     <!-- fin portfolio -->
 
@@ -241,43 +247,46 @@
     <!-- formation -->
     <section id="formation" class="formation">
       <h3><strong>F</strong>ormation <hr></h3>
-      <div class="flexB flexB1">
-        <div class="image image1">
-          <img src="images/upto.png" alt="UpTo">
+      <div class="flexB">
+        <!-- flexB1 -->
+        <div class="flexB1">
+          <div class="image image1">
+            <img src="images/upto.png" alt="UpTo">
+          </div>
+          <div class="formation2">
+            <p>
+              2015 - aujourd'hui
+              <br><em>Certification Niveau III </em>
+              <br>Développeuse Web
+            </p>
+          </div>
         </div>
-        <div class="formation2">
-          <p>
-            2015 - aujourd'hui
-            <br><em>Certification Niveau III </em>
-            <br>Développeuse Web
-          </p>
+
+        <div class="flexB2">
+          <!-- flexB  -->
+          <div class="image">
+            <img src="images/au.jpg" alt="Aarhus University">
+          </div>
+          <div class="formation2">
+            <p>
+              2005
+              <br><em>Master II </em>
+              <br>Biologie Moléculaire
+            </p>
+          </div>
+
+          <div class="image">
+            <img src="images/um.png" alt="Université Montpellier II">
+          </div>
+          <div class="formation2">
+            <p>
+              2004
+              <br><em>Maîtrise</em>
+              <br>Biochimie
+            </p>
+          </div>
         </div>
       </div>
-
-      <div class="flexB flexB2">
-        <div class="image">
-          <img src="images/au.jpg" alt="Aarhus University">
-        </div>
-        <div class="formation2">
-          <p>
-            2005
-            <br><em>Master II </em>
-            <br>Biologie Moléculaire
-          </p>
-        </div>
-
-        <div class="image">
-          <img src="images/um.png" alt="Université Montpellier II">
-        </div>
-        <div class="formation2">
-          <p>
-            2004
-            <br><em>Maîtrise</em>
-            <br>Biochimie
-          </p>
-        </div>
-      </div>
-
     </section>
     <!-- fin formation -->
 
@@ -336,7 +345,7 @@
 
     <div class="flexB3">
       <div class="copyright">
-      © 2016 | Emilie SABY | Mentions légales
+        © 2016 | Emilie SABY | Mentions légales
       </div>
 
       <div class="social">
