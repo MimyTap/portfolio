@@ -1,47 +1,35 @@
 /*RESET CSS*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*End Reset CSS*/
@@ -58,19 +46,16 @@ table {
 @import url(//fonts.googleapis.com/css?family=Kreon:300);
 
 /*général*/
-
 body {
   background: #F6F9F8;
   color: #696565;
   font: 300 italic 20px/30px 'Open Sans', sans-serif;
-  }
-
+}
 .container {
   margin: 0 40px;
 }
 
 /*titles*/
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #474b5d;
@@ -83,7 +68,6 @@ h1 {
   letter-spacing: 1px;
   text-align: center;
 }
-
 h2 {
   text-align: center;
   font-size: 18px;
@@ -93,7 +77,7 @@ h2 {
 h3 {
   text-align: center;
   font-size: 38px;
-	padding: 100px;
+  padding: 100px;
   color: #3e3c3c;
   text-transform: uppercase;
 }
@@ -104,20 +88,17 @@ h3 {
 }*/
 
 strong {
-	color: #F067DE;
+  color: #F067DE;
 }
 
 /*header*/
-
 nav {
   background-image: url(../images/bg.jpg);
 }
-
 ul li {
   text-transform: uppercase;
   font-style: normal;
 }
-
 header {
   background-image: url(../images/bg.jpg);
   width: 100%;
@@ -125,11 +106,9 @@ header {
 header img {
   border-radius: 20px;
 }
-
 .presentation {
   padding-top: 220px;
 }
-
 .social {
   padding-top: 100px;
   font-size: 14px;
@@ -143,14 +122,13 @@ hr {
 .presentation h1 {
   padding-bottom: 40px;
 }
-
 .presentation p {
-	color: #fff;
-	text-align: center;
-	margin-bottom: 80px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 80px;
 }
-/*Links*/
 
+/*Links*/
 a {
   text-decoration: none;
   color: inherit;
@@ -158,8 +136,9 @@ a {
   color: #e6e5e5;
 }
 a:hover {
-  color: #F067DE;;
-	text-decoration: none;
+  color: #F067DE;
+  ;
+  text-decoration: none;
 }
 
 /*SECTIONS*/
@@ -179,7 +158,6 @@ a:hover {
 }
 
 /*compétences*/
-
 .grid_3 p {
   font-size: 24px;
 }
@@ -201,7 +179,6 @@ a:hover {
 }
 
 /*positions Rsquares:*/
-
 .serv_links .serv1 {
   top: 220px;
   left: 0;
@@ -238,11 +215,10 @@ a:hover {
   width: 270px;
 }
 .flexB0 {
-	display: flex;
+  display: flex;
 }
 
 /*Rsquares*/
-
 .serv_links .serv::before {
   position: absolute;
   width: 137px;
@@ -266,96 +242,22 @@ a:hover {
 /*end compétences*/
 
 /*portfolio*/
-
 .portfolio {
   margin-top: 150px;
 }
-
 .carousel-indicators li {
-	background-color: #3e3c3c;
-	border-color: #3e3c3c;
+  background-color: #3e3c3c;
+  border-color: #3e3c3c;
 }
 
 /*Expérience*/
-
-.container_12 .grid_12 {
-  width: 1170px;
-  margin-top: 50px;
-}
-.block-1 .text1 {
-  font-size: 28px;
-  font-style: normal;
-  margin-bottom: 21px;
-}
-.alpha .block-1 .text1 {
+.workLeft, .dateLeft {
   text-align: right;
 }
-.block-1 .text1 em {
-  font-size: 18px;
-  font-style: italic;
-}
-.text1 {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: normal;
-  margin-bottom: 22px;
-}
-.container_12 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-}
-
-/*Rsquares*/
-.cornered {
-  color: #474b5d;
-  font-size: 24px;
-  line-height: 36px;
-  width: 194px;
-  font-weight: normal;
-  font-style: normal;
-  position: relative;
-  float: right;
-  text-align: center;
-  margin-top: 88px;
-  margin-right: -8px;
-}
-.cornered::before {
-  position: absolute;
-  width: 137px;
-  height: 137px;
-  content: '';
-  border: 1px solid #727582;
-  left: 50%;
-  margin-left: -69px;
-  top: 50%;
-  margin-top: -65px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
-  text-decoration: none !important;
-}
-.cornered::after {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  content: '';
-  background-color: #474b5d;
-  left: 100%;
-  margin-left: -1px;
-  top: 50%;
-  margin-top: -4px;
-  border-radius: 500px;
-}
 .story {
-  padding-bottom: 1330px;
+  /*padding-bottom: 1330px;*/
   position: relative;
-  margin-top: -8px;
+  margin-top: 100px;
 }
 .story:after {
   left: 50%;
@@ -364,78 +266,83 @@ a:hover {
   background-color: #474b5d;
   position: absolute;
   content: '';
-  top: -29px;
-  bottom: 130px;
+  top: -20px;
+  bottom: 10px;
 }
-.extra_wrapper {
-  overflow: hidden;
+.workLeft em, .workRight em {
+  font-size: 14px;
+  font-style: italic;
 }
-.time {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: top;
+.workLeft, .workRight {
+  position: relative;
+  padding-bottom: 50px;
+}
+.cornered {
+  border: 1px solid #727582;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
-/*positions exp*/
-.alpha {
-  margin-left: 0;
+/*positions story*/
+.left .cornered {
+  right: 52%;
 }
-.omega {
-  margin-right: 0;
+.right .cornered {
+  left: 52%;
 }
-.exp_inset__1 {
-  padding-bottom: 0px;
+.c1 {
+  top: -5%;
 }
-.block-1 + .block-1 {
-  margin-top: 216px;
+.c2 {
+  top: 7%;
 }
-.block-1 + .block-1 .text1 {
-  position: relative;
-  top: 1px;
+.c3 {
+  top: 19%;
 }
-.block-1.inset__1 {
-  padding-top: 143px;
+.c4 {
+  top: 32%;
 }
-.block-1.inset__1 .cornered {
-  float: left;
-  margin-right: 30px;
-  margin-left: -8px;
+.c5 {
+	top: 43%;
 }
-.block-1.inset__1 .cornered:after {
-  left: -15px;
-  margin-left: 0;
+.c6 {
+	top: 56%;
 }
-.cornered.pos__1 {
-  position: absolute;
-  left: 50%;
-  margin-left: -97px;
-  bottom: 0;
-  line-height: 30px;
+.c7 {
+	top: 68%;
 }
-.cornered.pos__1:before {
-  margin-top: -68px;
+.c8 {
+	top: 80%;
 }
-.cornered.pos__1:after {
-  left: 50%;
-  margin-left: -7px;
-  top: 0;
-  margin-top: -83px;
+
+.dateLeft {
+	padding-right: 63px;
+}
+.dateRight {
+	padding-left: 54px;
+}
+.date2Left {
+	padding-right: 21px;
+}
+
+.date2Right {
+	padding-left: 20px;
 }
 /*fin experience*/
-
 
 /*Formation*/
 .flexB {
   display: flex;
 }
-
 .flexB1 {
-	display: flex;
+  display: flex;
 }
-
 .formation2 {
   width: 300px;
   padding-left: 34px;
@@ -452,7 +359,6 @@ a:hover {
 .image1 {
   background-color: #fff;
 }
-
 /*Fin formation*/
 
 /*loisirs*/
@@ -468,11 +374,9 @@ a:hover {
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
 }
-
 .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8 {
   margin: 0 auto;
 }
-
 .l1, .l3, .l5, .l7 {
   color: #474b5d;
   font-size: 24px;
@@ -486,7 +390,6 @@ a:hover {
   margin-top: 88px;
   margin-right: -8px;
 }
-
 .l1::before, .l3::before, .l5::before, .l7::before {
   position: absolute;
   width: 137px;
@@ -506,25 +409,21 @@ a:hover {
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
 }
-
 .loisirs {
   font-size: 30px;
 }
-
 .flexB4 {
   display: flex;
   align-items: center;
 }
 
 /*footer*/
-
 footer {
-  background-image:url(../images/bg.jpg);
+  background-image: url(../images/bg.jpg);
   color: #e6e5e5;
   margin-top: 80px;
   padding: 5px 30px;
 }
-
 footer h3 {
   padding-bottom: 20px;
   margin-bottom: 0;
@@ -532,7 +431,6 @@ footer h3 {
   padding-top: 20px;
   font-size: 24px;
 }
-
 footer p {
   font-size: 14px;
 }
@@ -540,17 +438,14 @@ footer .social {
   padding-top: 10px;
   font-size: 10px;
 }
-
 .flexB2 {
   display: flex;
   justify-content: space-around;
-  }
-
+}
 .copyright {
   font-size: 10px;
   font-style: normal;
 }
-
 .flexB3 {
   display: flex;
   align-items: center;
@@ -558,20 +453,47 @@ footer .social {
 }
 
 /*Media queries*/
-@media screen and (max-width: 1199px){
-	.flexB0 {
-		display: flex;
-		flex-direction: row-reverse;
-	}
-	.exp {
-		font-size: 10px;
-	}
-	.serv_links .serv8 {
-		left: 104px;
-		top: 320px;
-	}
-	.serv_links .serv7 {
-		left: -100px;
-		top: 320px;
-	}
+@media screen and (max-width: 1199px) {
+  /*competences*/
+  .flexB0 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+    .serv_links .serv8 {
+    left: 104px;
+    top: 320px;
+  }
+  .serv_links .serv7 {
+    left: -100px;
+    top: 320px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+	.grid_3 {
+		display: none;
+	} /*A modif!*/
+	.portfolio {
+		margin-top: 1000px;
+	}/*A modif!*/
+    .serv_links .serv8 {
+    left: 204px;
+    top: 425px;
+  }
+  .serv_links .serv7 {
+    left: 308px;
+    top: 730px;
+  }
+	.serv_links .serv6 {
+    left: 307px;
+    top: 323px;
+  }
+	.serv_links .serv2 {
+    left: 307px;
+    top: 527px;
+  }
+	.serv_links .serv1 {
+    left: 205px;
+    top: 629px;
+  }
 }
