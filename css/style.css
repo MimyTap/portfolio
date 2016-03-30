@@ -52,7 +52,7 @@ body {
   font: 300 italic 20px/30px 'Open Sans', sans-serif;
 }
 .container {
-  margin: 0 40px;
+  margin: 0 auto;
 }
 
 /*titles*/
@@ -110,14 +110,16 @@ header img {
   padding-top: 220px;
 }
 .social {
-  padding-top: 100px;
+  padding: 100px 0 50px 0;
   font-size: 14px;
   text-align: center;
 }
 hr {
+  /*background-image: url(../images/hr2.png);*/
   border-top: #F067DE dotted 3px;
   border-bottom: 0;
   width: 446px;
+  /*height: 100px;*/
 }
 .presentation h1 {
   padding-bottom: 40px;
@@ -158,9 +160,11 @@ a:hover {
 }
 
 /*compétences*/
-.grid_3 p {
+/*partie1*/
+.grid_3 p, .grid_1 p {
   font-size: 24px;
 }
+
 .serv_links {
   position: relative;
   min-height: 10px;
@@ -216,10 +220,11 @@ a:hover {
 }
 .flexB0 {
   display: flex;
+  /*justify-content: space-around;*/
 }
 
 /*Rsquares*/
-.serv_links .serv::before {
+.serv_links .serv::before{
   position: absolute;
   width: 137px;
   height: 137px;
@@ -239,6 +244,49 @@ a:hover {
   transform: rotate(135deg);
   text-decoration: none !important;
 }
+
+/*partie2 compétences*/
+.grid_1 {
+  margin-top: 400px;
+}
+.grid_1 .cornered {
+  width: 150px;
+  height: 150px;
+  /*background-color: #3E3C3C;*/
+}
+.grid_1 p{
+  margin-bottom: 14px;
+}
+
+.comp {
+  padding: 80px 0;
+  /*color: #fff;*/
+}
+.co1, .co2, .co3 {
+  top: 1854px;
+}
+.co4, .co5, .co6 {
+  top: 2032px;
+}
+.co1 {
+  left: 246px;
+}
+.co2 {
+  left: 543px;
+}
+.co3 {
+  left: 807px;
+}
+.co4 {
+  left: 327px;
+}
+.co5 {
+  left: 615px;
+}
+.co6 {
+  left: 929px;
+}
+
 /*end compétences*/
 
 /*portfolio*/
@@ -266,7 +314,7 @@ a:hover {
   background-color: #474b5d;
   position: absolute;
   content: '';
-  top: -20px;
+  top: -84px;
   bottom: 10px;
 }
 .workLeft em, .workRight em {
@@ -296,29 +344,32 @@ a:hover {
 .right .cornered {
   left: 52%;
 }
+.c0 {
+  top: -48px;
+}
 .c1 {
-  top: -5%;
+  top: 6%;
 }
 .c2 {
-  top: 7%;
+  top: 17%;
 }
 .c3 {
-  top: 19%;
+  top: 28%;
 }
 .c4 {
-  top: 32%;
+  top: 39%;
 }
 .c5 {
-	top: 43%;
+	top: 50%;
 }
 .c6 {
-	top: 56%;
+	top: 61%;
 }
 .c7 {
-	top: 68%;
+	top: 72%;
 }
 .c8 {
-	top: 80%;
+	top: 82%;
 }
 
 .dateLeft {
