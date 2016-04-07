@@ -46,6 +46,7 @@ table {
 @import url(//fonts.googleapis.com/css?family=Kreon:300);
 
 /*général*/
+
 body {
   background: #F6F9F8;
   color: #696565;
@@ -53,9 +54,11 @@ body {
 }
 .container {
   margin: 0 auto;
+  width: 1200px;
 }
 
 /*titles*/
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #474b5d;
@@ -92,6 +95,7 @@ strong {
 }
 
 /*header*/
+
 nav {
   background-image: url(../images/bg.jpg);
 }
@@ -131,6 +135,7 @@ hr {
 }
 
 /*Links*/
+
 a {
   text-decoration: none;
   color: inherit;
@@ -160,11 +165,13 @@ a:hover {
 }
 
 /*compétences*/
+
+
 /*partie1*/
+
 .grid_3 p, .grid_1 p {
   font-size: 24px;
 }
-
 .serv_links {
   position: relative;
   min-height: 10px;
@@ -183,6 +190,7 @@ a:hover {
 }
 
 /*positions Rsquares:*/
+
 .serv_links .serv1 {
   top: 220px;
   left: 0;
@@ -224,7 +232,8 @@ a:hover {
 }
 
 /*Rsquares*/
-.serv_links .serv::before{
+
+.serv_links .serv::before {
   position: absolute;
   width: 137px;
   height: 137px;
@@ -245,28 +254,32 @@ a:hover {
   text-decoration: none !important;
 }
 
+
 /*partie2 compétences*/
-.grid_1 {
+
+/*.grid_1 {
   margin-top: 400px;
 }
 .grid_1 .cornered {
   width: 150px;
   height: 150px;
   /*background-color: #3E3C3C;*/
-}
-.grid_1 p{
+/*}
+.grid_1 p {
   margin-bottom: 14px;
 }
-
+.grid_1 a {
+  color: #474b5d;
+}
 .comp {
   padding: 80px 0;
   /*color: #fff;*/
-}
-.co1, .co2, .co3 {
+/*}*/
+/*.co1, .co2, .co3 {
   top: 1854px;
 }
 .co4, .co5, .co6 {
-  top: 2032px;
+  top: 2048px;
 }
 .co1 {
   left: 246px;
@@ -285,13 +298,51 @@ a:hover {
 }
 .co6 {
   left: 929px;
+}*/
+.serv_links .serv1b {
+  left: 0;
+  top: 595px;
+}
+.serv_links .serv2b {
+  left: 100px;
+  top: 495px;
+}
+.serv_links .serv3b {
+  left: 200px;
+  top: 395px;
+}
+.serv_links .serv4b {
+  left: 201px;
+  top: 596px;
+}
+.serv_links .serv5b {
+  left: 302px;
+  top: 477px;
+}
+.serv_links .serv6b {
+  left: 402px;
+  top: 394px;
+}
+.serv_links .serv7b {
+  left: 503px;
+  top: 495px;
+}
+.serv_links .serv8b {
+  left: 604px;
+  top: 395px;
 }
 
+.particuliere p {
+  margin-top: 463px;
+  margin-left: 799px;
+}
 /*end compétences*/
 
+
 /*portfolio*/
+
 .portfolio {
-  margin-top: 150px;
+  margin-top: 236px;
 }
 .carousel-indicators li {
   background-color: #3e3c3c;
@@ -299,6 +350,7 @@ a:hover {
 }
 
 /*Expérience*/
+
 .workLeft, .dateLeft {
   text-align: right;
 }
@@ -338,6 +390,7 @@ a:hover {
 }
 
 /*positions story*/
+
 .left .cornered {
   right: 52%;
 }
@@ -360,40 +413,40 @@ a:hover {
   top: 39%;
 }
 .c5 {
-	top: 50%;
+  top: 50%;
 }
 .c6 {
-	top: 61%;
+  top: 61%;
 }
 .c7 {
-	top: 72%;
+  top: 72%;
 }
 .c8 {
-	top: 82%;
+  top: 82%;
 }
-
 .dateLeft {
-	padding-right: 63px;
+  padding-right: 63px;
 }
 .dateRight {
-	padding-left: 54px;
+  padding-left: 54px;
 }
 .date2Left {
-	padding-right: 21px;
+  padding-right: 21px;
+}
+.date2Right {
+  padding-left: 20px;
 }
 
-.date2Right {
-	padding-left: 20px;
-}
 /*fin experience*/
 
+
 /*Formation*/
+
 .flexB1, .flexB2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-
 .image1 {
   margin-bottom: 34px;
 }
@@ -405,9 +458,12 @@ a:hover {
   font-size: 20px;
   font-style: italic;
 }
+
 /*Fin formation*/
 
+
 /*loisirs*/
+
 .loisir img {
   opacity: 0.7;
   border: 1px solid #727582;
@@ -464,6 +520,7 @@ a:hover {
 }
 
 /*footer*/
+
 footer {
   background-image: url(../images/bg.jpg);
   color: #e6e5e5;
@@ -499,13 +556,14 @@ footer .social {
 }
 
 /*Media queries*/
+
 @media screen and (max-width: 1199px) {
   /*competences*/
   .flexB0 {
     display: flex;
     flex-direction: row-reverse;
   }
-    .serv_links .serv8 {
+  .serv_links .serv8 {
     left: 104px;
     top: 320px;
   }
@@ -513,16 +571,44 @@ footer .social {
     left: -100px;
     top: 320px;
   }
+  .co1, .co2, .co3 {
+    top: 1912px;
+  }
+  .co4, .co5, .co6 {
+    top: 2102px;
+  }
+  .co1 {
+    left: 248px;
+  }
+  .co2 {
+    left: 485px;
+  }
+  .co3 {
+    left: 714px;
+  }
+  .co4 {
+    left: 306px;
+  }
+  .co5 {
+    left: 547px;
+  }
+  .co6 {
+    left: 800px;
+  }
+  .grid_1 p {
+    display: none;
+  }
 }
-
 @media screen and (max-width: 992px) {
-	.grid_3 {
-		display: none;
-	} /*A modif!*/
-	.portfolio {
-		margin-top: 1000px;
-	}/*A modif!*/
-    .serv_links .serv8 {
+  .grid_3 {
+    display: none;
+  }
+  /*A modif!*/
+  .portfolio {
+    margin-top: 1000px;
+  }
+  /*A modif!*/
+  .serv_links .serv8 {
     left: 204px;
     top: 425px;
   }
@@ -530,15 +616,15 @@ footer .social {
     left: 308px;
     top: 730px;
   }
-	.serv_links .serv6 {
+  .serv_links .serv6 {
     left: 307px;
     top: 323px;
   }
-	.serv_links .serv2 {
+  .serv_links .serv2 {
     left: 307px;
     top: 527px;
   }
-	.serv_links .serv1 {
+  .serv_links .serv1 {
     left: 205px;
     top: 629px;
   }

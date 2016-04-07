@@ -18,7 +18,10 @@
   <!-- header -->
   <header>
 
-    <nav class="navbar-fixed-top">
+    <button class="hamburger">&#9776;</button>
+    <button class="cross">&#735;</button>
+
+    <nav class="navbar-fixed-top" id="navigation">
 
       <div class="container-fluid">
         <div class="navbar-header">
@@ -28,6 +31,7 @@
         </div>
 
         <ul class="nav nav-pills nav-justified">
+          <li role="presentation" title=""><a href="#presentation2">presentation</a></li>
           <li role="presentation"><a href="#competences">compétences</a></li>
           <li role="presentation"><a href="#portfolio">portfolio</a></li>
           <li role="presentation"><a href="#exp">parcours</a></li>
@@ -100,7 +104,6 @@
 
 
       <div class="flexB0">
-
         <div class="grid_9">
           <div class="serv_links">
             <span class="serv serv1">HTML5</span>
@@ -122,47 +125,26 @@
       </div>
 
       <!-- partie 2 compétences -->
-      <div class="grid_1">
-        <p>
-          Et voici mes compétences particulières !
-        </p>
-        <div class="row">
-            <div class="cornered co1">
-          </div>
-          <div class="col-lg-offset-2 col-lg-3 comp">
-            Mode projets
-          </div>
-          <div class="cornered co2">
-          </div>
-          <div class="col-lg-3 comp">
-            Méthode Agile
-          </div>
-          <div class="cornered co3">
-          </div>
-          <div class="col-lg-3 comp">
-            Anglais
+
+        <div class="grid_9">
+
+          <div class="serv_links">
+            <span class="serv serv1b">Méthode Agile</span>
+            <span class="serv serv2b">Anglais</span>
+            <span class="serv serv3b">Mode Projet</span>
+            <span class="serv serv4b">Startup Week</span>
+            <span class="serv serv5b">Ateliers en <br> Entreprises</span>
+            <span class="serv serv6b">Projet Up To</span>
+            <span class="serv serv7b">Espagnol</span>
+            <span class="serv serv8b">Master Classes</span>
           </div>
 
           </div>
-        <div class="row">
-
-          <div class="cornered co4">
+          <div class="particuliere">
+            <p>
+              Quelques compétences particulières
+            </p>
           </div>
-          <div class="col-lg-offset-3 col-lg-3 comp">
-            Sites Web
-          </div>
-          <div class="cornered co5">
-          </div>
-          <div class="col-lg-3 comp">
-            Espagnol
-          </div>
-          <div class="cornered co6">
-          </div>
-          <div class="col-lg-3 comp">
-            Startup Week
-          </div>
-        </div>
-      </div>
 
     </section>
 
@@ -528,6 +510,8 @@
 
   <script src="css/js/bootstrap.min.js"></script>
 
+  <!-- scrip popup -->
+  <script src="css/js/script.js"></script>
 
 </body>
 
