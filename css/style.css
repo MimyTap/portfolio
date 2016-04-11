@@ -254,51 +254,8 @@ a:hover {
   text-decoration: none !important;
 }
 
-
 /*partie2 compétences*/
 
-/*.grid_1 {
-  margin-top: 400px;
-}
-.grid_1 .cornered {
-  width: 150px;
-  height: 150px;
-  /*background-color: #3E3C3C;*/
-/*}
-.grid_1 p {
-  margin-bottom: 14px;
-}
-.grid_1 a {
-  color: #474b5d;
-}
-.comp {
-  padding: 80px 0;
-  /*color: #fff;*/
-/*}*/
-/*.co1, .co2, .co3 {
-  top: 1854px;
-}
-.co4, .co5, .co6 {
-  top: 2048px;
-}
-.co1 {
-  left: 246px;
-}
-.co2 {
-  left: 543px;
-}
-.co3 {
-  left: 807px;
-}
-.co4 {
-  left: 327px;
-}
-.co5 {
-  left: 615px;
-}
-.co6 {
-  left: 929px;
-}*/
 .serv_links .serv1b {
   left: 0;
   top: 595px;
@@ -338,9 +295,7 @@ a:hover {
 }
 /*end compétences*/
 
-
 /*portfolio*/
-
 .portfolio {
   margin-top: 236px;
 }
@@ -526,6 +481,7 @@ footer {
   color: #e6e5e5;
   margin-top: 80px;
   padding: 5px 30px;
+  width: 1200px;
 }
 footer h3 {
   padding-bottom: 20px;
