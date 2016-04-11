@@ -558,6 +558,19 @@ footer .social {
 /*Media queries*/
 
 @media screen and (max-width: 1199px) {
+  /*experience*/
+  .serv_links .serv3b {
+    left: 101px;
+    top: 696px;
+  }
+  .serv_links .serv6b {
+    left: 402px;
+    top: 595px;
+  }
+  .serv_links .serv8b {
+    left: 302px;
+    top: 695px;
+  }
   /*competences*/
   .flexB0 {
     display: flex;
@@ -607,25 +620,75 @@ footer .social {
   .portfolio {
     margin-top: 1000px;
   }
-  /*A modif!*/
-  .serv_links .serv8 {
-    left: 204px;
-    top: 425px;
-  }
-  .serv_links .serv7 {
-    left: 308px;
-    top: 730px;
-  }
-  .serv_links .serv6 {
-    left: 307px;
-    top: 323px;
-  }
-  .serv_links .serv2 {
-    left: 307px;
-    top: 527px;
-  }
+  /*competences partie 1*/
   .serv_links .serv1 {
-    left: 205px;
+    left: 55px;
     top: 629px;
   }
+  .serv_links .serv2 {
+    left: 157px;
+    top: 527px;
+  }
+  .serv_links .serv3 {
+    left: 50px;
+    top: 20px;
+  }
+  .serv_links .serv4 {
+    left: 55px;
+    top: 220px;
+  }
+  .serv_links .serv5 {
+    left: 155px;
+    top: 120px;
+  }
+  .serv_links .serv6 {
+    left: 157px;
+    top: 323px;
+  }
+  .serv_links .serv7 {
+    left: 158px;
+    top: 730px;
+  }
+    .serv_links .serv8 {
+    left: 54px;
+    top: 425px;
+  }
+
+  /*competences partie 2*/
+  .serv_links .serv1b {
+    left: 738px;
+    top: 718px;
+  }
+  .serv_links .serv2b {
+    left: 738px;
+    top: 515px;
+  }
+  .serv_links .serv3b {
+    left: 636px;
+    top: 10px;
+  }
+  .serv_links .serv4b {
+    left: 636px;
+    top: 617px;
+  }
+  .serv_links .serv5b {
+    left: 636px;
+    top: 396px;
+  }
+  .serv_links .serv6b {
+    left: 738px;
+    top: 110px;
+  }
+  .serv_links .serv7b {
+    left: 738px;
+    top: 312px;
+  }
+  .serv_links .serv8b {
+    left: 636px;
+    top: 211px;
+  }
+.particuliere p {
+  display: none;
+}
+
 }
