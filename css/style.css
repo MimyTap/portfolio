@@ -105,7 +105,7 @@ ul li {
 }
 header {
   background-image: url(../images/bg.jpg);
-  width: 1200px;
+  width: 100%;
 }
 header img {
   border-radius: 20px;
@@ -481,7 +481,7 @@ footer {
   color: #e6e5e5;
   margin-top: 80px;
   padding: 5px 30px;
-  width: 1200px;
+  width: 100%;
 }
 footer h3 {
   padding-bottom: 20px;
