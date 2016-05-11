@@ -101,7 +101,7 @@ ul li {
 header {
   background-image: url(../images/bg.jpg);
   width: 100%;
-  background-size: cover;
+  /*background-size: cover;*/
 }
 header img {
   border-radius: 20px;
@@ -140,7 +140,6 @@ a {
 }
 a:hover {
   color: #F067DE;
-  ;
   text-decoration: none;
 }
 
@@ -160,9 +159,33 @@ a:hover {
   width: 570px;
 }
 
+/*presentention2*/
+.projets {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  line-height: 2;
+}
+.listeProjets {
+  border: 1px solid #e6e5e5;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.projets a {
+  color: #474b5d;
+  font-weight: bold;
+}
+.projets a:hover {
+  color: #F067DE;
+}
+
+.projets em {
+  font-weight: bold;
+}
+
 /*compétences*/
-
-
 /*partie1*/
 
 .grid_3 p, .grid_1 p {
@@ -478,7 +501,7 @@ footer {
   margin-top: 80px;
   padding: 5px 30px;
   width: 100%;
-  background-size: cover;
+  /*background-size: cover;*/
 }
 footer h3 {
   padding-bottom: 20px;
