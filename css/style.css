@@ -371,33 +371,37 @@ a:hover {
 .right .cornered {
   left: 52%;
 }
+.c9 {
+  top: -45px;
+}
 .c0 {
-  top: -48px;
+  top: 71px;
 }
 .c1 {
-  top: 6%;
+  top: 16%;
 }
 .c2 {
-  top: 17%;
+  top: 25%;
 }
 .c3 {
-  top: 28%;
+  top: 35%;
 }
 .c4 {
-  top: 39%;
+  top: 45%;
 }
 .c5 {
-  top: 50%;
+  top: 55%;
 }
 .c6 {
-  top: 61%;
+  top: 64%;
 }
 .c7 {
-  top: 72%;
+  top: 74%;
 }
 .c8 {
-  top: 82%;
+  top: 84%;
 }
+
 .dateLeft {
   padding-right: 63px;
 }
